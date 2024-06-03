@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composant Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/portfolio4.jpg" width="50" height="30">
+            </a>
+        <a class="navbar-brand  text-white" href="#">Maimouna</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active  text-white" aria-current="page" href="#">Acceuil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  text-white" href="#">A propos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle  text-white" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Formations
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Gratuites</a></li>
+                        <li><a class="dropdown-item" href="#">Payantes</a></li>
+                        <li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled text-white" aria-disabled="true">Contact</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+                <button class="btn btn-success" type="submit">Rechercher</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
